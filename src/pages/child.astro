@@ -1,0 +1,13 @@
+with fragment:<br/>
+{["hello", "goodbye"].map((value, i) => (
+<>
+    <strong>{i}: {value}</strong><br/>
+</>
+))}
+<br/>
+without fragment:<br/>
+{["hello", "goodbye"].map((value, i) => (
+
+    <strong>{i}: {value}</strong>
+
+))}

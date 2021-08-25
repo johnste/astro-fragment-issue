@@ -1,0 +1,15 @@
+{
+  "name": "astro-fragment-issue",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build"
+  },
+  "devDependencies": {
+    "astro": "^0.19.4"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {}
+}

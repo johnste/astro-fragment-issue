@@ -1,0 +1,26 @@
+---
+import Child from './child.astro'
+---
+<html lang="en">
+<body >
+    <main>
+        <h1>parent:</h1>
+        with fragment:<br/>
+        {["hello", "goodbye"].map((value, i) => (
+        <>
+            <strong>{i}: {value}</strong><br/>
+        </>
+        ))}
+        <br/>
+        without fragment:<br/>
+        {["hello", "goodbye"].map((value, i) => (
+
+            <strong>{i}: {value}</strong>
+
+        ))}
+
+        <h1>child:</h1>
+        <Child />
+    </main>
+</body>
+</html>
