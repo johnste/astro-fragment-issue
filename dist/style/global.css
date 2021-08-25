@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+
+  --color-raspberry: #f9535c;
+  --color-blackberry: #26263a;
+  --color-milk: #fff;
+}
+
+[data-theme="light"] {
+  --header-bg: var(--color-blackberry);
+  --footer-bg: var(--color-blackberry);
+  --footer-color: var(--color-milk);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
